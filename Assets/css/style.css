@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container a{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.navbar-title{
+    margin-top: 15px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: solid;
+}
+
+.hero-section{
+    margin: 0 0 0 0;
+    height: 100vh;
+    background-image: url(/Assets/img/hero1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+.hero-section .text-center {
+    margin-top: 0 !important;
+    padding-top: 4rem;
+}
+
+.container-hero{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(181, 137, 54, 0.605) ;
+    color: white;
+    
+}
+
